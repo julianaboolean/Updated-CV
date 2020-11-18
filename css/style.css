@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  /* resets user agent margins */
+  text-align: center;
+  /* centers all elements in the body */
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  /* This is a dynamic font size with percentages. (16px = 100% or 1em).
+     90 px / 16 = 562.5% or 5.625 em.
+     To overcome CSS inheritance, CSS3 allows us to use the root em or rem.*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 0 0 7px;
+  border-color: #EAF6F6;
+  height: 2px;
+  width: 5%;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  /* Makes the div element relative for children absolute positioning (clouds)*/
+  padding-top: 110px;
+}
+
+/*.middle-container {}*/
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 17%;
+  bottom: 300px;
+}
+
+.subtitle {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.profile {
+  margin: 65px 0 65px 0;
+}
+
+.profile-greeting {
+  margin-bottom: 65px;
+}
+
+.personal-description {
+  color: #40514E;
+  margin-bottom: 100px;
+}
+
+.skills-header {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.design-description-paragraph {
+  line-height: 2;
+  padding: 20px;
+}
+
+.tea-description-paragraph {
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  /* Wraps the text to the left */
+  margin-right: 30px;
+}
+
+.tea-img {
+  width: 25%;
+  float: right;
+  /* Wraps the text to the right */
+  margin-left: 30px;
+}
+
+.contact-header {
+  margin: 100px auto 50px auto;
+}
+
+.contact-subtitle {
+  margin-bottom: 60px;
+}
+
+.contact-button {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 0;
+  line-height: 0;
+  color: #EAF6F6;
+  width: 145px;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 22px;
+  background-color: #66BFBF;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.footer-link {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.linkedin-img {
+  max-width: 150px;
+}
+
+.twitter-img {
+  max-width: 70px;
+}
+
+.github-img {
+  max-width: 100px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: #EAF6F6;
+  font-family: serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 0.8125rem;
+}
