@@ -127,10 +127,13 @@ a {
 .design-description-paragraph {
   line-height: 2;
   padding: 20px;
+  min-width: 50%;
 }
 
 .tea-description-paragraph {
   line-height: 2;
+  width: auto;
+  min-width: 50%;
 }
 
 .computer-img {
