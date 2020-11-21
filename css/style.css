@@ -54,6 +54,13 @@ a {
   animation: 20s infinite alternate topcloudfly;
 }
 
+/* Resizes top cloud on smaller screens */
+@media only screen and (max-width: 635px) {
+  .top-cloud {
+    max-width: 75px;
+  }
+}
+
 /* top cloud animation */
 @keyframes topcloudfly {
   from {
@@ -74,12 +81,13 @@ a {
   animation: 20s infinite alternate bottomcloudfly;
 }
 
-/* Moves bottom cloud down on smaller screens */
+/* Resizes and moves bottom cloud on smaller screens */
 @media only screen and (max-width: 635px) {
   .bottom-cloud {
     position: absolute;
     left: 17%;
     bottom: 100px;
+    max-width: 75px;
   }
 }
 
