@@ -92,11 +92,9 @@ a {
   line-height: 2;
 }
 
-/* For width 400px and larger: */
-@media only screen and (min-width: 400px) {
-  .mountain-img {
-    max-width: 50%;
-  }
+/* For smaller displays reduce mountain size */
+.mountain-img {
+  max-width: 50%;
 }
 
 .profile {
