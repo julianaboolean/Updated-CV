@@ -44,6 +44,7 @@ a {
   position: relative;
   /* Makes the div element relative for children absolute positioning (clouds)*/
   padding-top: 110px;
+  width: auto;
 }
 
 .top-cloud {
@@ -91,12 +92,23 @@ a {
   line-height: 2;
 }
 
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+  .mountain-img {
+    max-width: 50%;
+  }
+}
+
 .profile {
   padding: 65px 0 0 0;
 }
 
 .profile-greeting {
   margin-bottom: 65px;
+}
+
+.profile-img {
+  max-width: 50%;
 }
 
 .personal-description {
@@ -124,14 +136,12 @@ a {
 }
 
 .computer-img {
-  width: 25%;
   float: left;
   /* Wraps the text to the left */
   margin-right: 30px;
 }
 
 .tea-img {
-  width: 25%;
   float: right;
   /* Wraps the text to the right */
   margin-left: 30px;
