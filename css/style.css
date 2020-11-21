@@ -74,6 +74,15 @@ a {
   animation: 20s infinite alternate bottomcloudfly;
 }
 
+/* Moves bottom cloud down on smaller screens */
+@media only screen and (max-width: 635px) {
+  .bottom-cloud {
+    position: absolute;
+    left: 17%;
+    bottom: 100px;
+  }
+}
+
 /* bottom cloud animation */
 @keyframes bottomcloudfly {
   from {
